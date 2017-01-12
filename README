@@ -1,0 +1,18 @@
+前提条件：先root手机，然后http://repo.xposed.info/module/de.robv.android.xposed.installer下载Xposed Installer Apk安装到手机上.
+ 包中有下载好的xposed installer apk. 启动xposed，然后安装更新。
+
+第一步：创建Android空工程
+第二步：建一个与src同级的lib目录，将api-82.jar拷贝到该目录下。jar下载地址：https://jcenter.bintray.com/de/robv/android/xposed/api/
+第三步：在AndroidManifest.xml中添加meta信息
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Easy example which makes the status bar clock red and adds a smiley" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53" />
+第四：新建一个XposedTutorial类，以实现IXposedHookLoadPackage接口的handleLoadPackage方法
+第五步：新建一个名为xposed_init的文件，内容为XposedTutorial类的全路径，如下所示：
+cn.dennishucd.xposed7.XposedLocation
