@@ -1,9 +1,11 @@
-Ç°ÌáÌõ¼ş£ºÏÈrootÊÖ»ú£¬È»ºóhttp://repo.xposed.info/module/de.robv.android.xposed.installerÏÂÔØXposed Installer Apk°²×°µ½ÊÖ»úÉÏ.
- °üÖĞÓĞÏÂÔØºÃµÄxposed installer apk. Æô¶¯xposed£¬È»ºó°²×°¸üĞÂ¡£
+å¯ä»»æ„å®šåˆ¶å¾®ä¿¡çš„ä½ç½®ï¼Œä¿®æ”¹XposedLocationä¸­çš„"å¸ƒè¾¾æ‹‰å®«"å¤„çš„GPSåœ°å€å°±å¯ä»¥äº†. GPSå€¼å¯ä»¥åœ¨http://www.gpsspg.com/maps.htmé€‰å–ã€‚
 
-µÚÒ»²½£º´´½¨Android¿Õ¹¤³Ì
-µÚ¶ş²½£º½¨Ò»¸öÓësrcÍ¬¼¶µÄlibÄ¿Â¼£¬½«api-82.jar¿½±´µ½¸ÃÄ¿Â¼ÏÂ¡£jarÏÂÔØµØÖ·£ºhttps://jcenter.bintray.com/de/robv/android/xposed/api/
-µÚÈı²½£ºÔÚAndroidManifest.xmlÖĞÌí¼ÓmetaĞÅÏ¢
+å‰ææ¡ä»¶ï¼šå…ˆrootæ‰‹æœºï¼Œç„¶åhttp://repo.xposed.info/module/de.robv.android.xposed.installerä¸‹è½½Xposed Installer Apkå®‰è£…åˆ°æ‰‹æœºä¸Š.
+ åŒ…ä¸­æœ‰ä¸‹è½½å¥½çš„xposed installer apk. å¯åŠ¨xposedï¼Œç„¶åå®‰è£…æ›´æ–°ã€‚
+
+ç¬¬ä¸€æ­¥ï¼šåˆ›å»ºAndroidç©ºå·¥ç¨‹
+ç¬¬äºŒæ­¥ï¼šå»ºä¸€ä¸ªä¸srcåŒçº§çš„libç›®å½•ï¼Œå°†api-82.jaræ‹·è´åˆ°è¯¥ç›®å½•ä¸‹ã€‚jarä¸‹è½½åœ°å€ï¼šhttps://jcenter.bintray.com/de/robv/android/xposed/api/
+ç¬¬ä¸‰æ­¥ï¼šåœ¨AndroidManifest.xmlä¸­æ·»åŠ metaä¿¡æ¯
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
@@ -13,6 +15,6 @@
         <meta-data
             android:name="xposedminversion"
             android:value="53" />
-µÚËÄ£ºĞÂ½¨Ò»¸öXposedTutorialÀà£¬ÒÔÊµÏÖIXposedHookLoadPackage½Ó¿ÚµÄhandleLoadPackage·½·¨
-µÚÎå²½£ºĞÂ½¨Ò»¸öÃûÎªxposed_initµÄÎÄ¼ş£¬ÄÚÈİÎªXposedTutorialÀàµÄÈ«Â·¾¶£¬ÈçÏÂËùÊ¾£º
+ç¬¬å››ï¼šæ–°å»ºä¸€ä¸ªXposedTutorialç±»ï¼Œä»¥å®ç°IXposedHookLoadPackageæ¥å£çš„handleLoadPackageæ–¹æ³•
+ç¬¬äº”æ­¥ï¼šæ–°å»ºä¸€ä¸ªåä¸ºxposed_initçš„æ–‡ä»¶ï¼Œå†…å®¹ä¸ºXposedTutorialç±»çš„å…¨è·¯å¾„ï¼Œå¦‚ä¸‹æ‰€ç¤ºï¼š
 cn.dennishucd.xposed7.XposedLocation
